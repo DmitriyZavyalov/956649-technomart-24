@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Дмитрий Завьялов](https://up.htmlacademy.ru/htmlcss/24/user/956649).
-* Наставник: [Андрей Островский](https://up.htmlacademy.ru/htmlcss/24/user/198062).
+* Наставник: [Андрей Островский](https://up.htmlacademy.ru/htmlcss/24/user/198062). 21-00(екб)
 
 ---
 
