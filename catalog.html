@@ -6,7 +6,7 @@
 </head>
 <body>
 	<header class="main-header">
-			<h2>Интернет-магазин строительных материалов и инструментов для ремонта</h2>
+			<p class="main-slogan">Интернет-магазин строительных материалов и инструментов для ремонта</p>
 				<a class="main-header-logo" href="index.html">
 					ТЕХНОМАРТ
 				</a>				
@@ -90,7 +90,7 @@
 				</ul>
 			</section>
 			<section class="catalog">
-				<h1>Перфораторы</h1>
+				<h2 class="visually-hidden">Каталог перфораторов</h2>
 				<ul class="catalog-list">
 					<li class="catalog-item">						
 						<h3>							
@@ -224,14 +224,14 @@
 			</section>
 			<section class="filters">
 				<h2>Фильтр</h2>
-				<form class="filter" action="get" action="https://echo.htmlacademy.ru">
+				<form class="filter" method="get" action="https://echo.htmlacademy.ru">
 					<!-- Здесь будет часть фильтра Цена -->
 					<fieldset>
 						<legend class="filters-title">Производители:</legend>
 						<ul class="filters-manufacturers">
 							<li class="filters-option">							
-								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="bosh" id="bosh" checked>
-								<label for="bosh">bosh</label>
+								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="bosch" id="bosch" checked>
+								<label for="bosch">bosch</label>
 							</li>
 							<li class="filters-option">								
 								<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="interscol" id="interscol">
@@ -252,21 +252,19 @@
 						</ul>
 					</fieldset>
 					<fieldset>
-						<legendclass="filters-title">Питание:</legend>
+						<legend class="filters-title">Питание:</legend>
 						<ul class="filters-charging">
 							<li class="filters-option">
 								<input class="visually-hidden filter-input filter-input-checkbox" type="radio" name="power" id="accumulator" checked>
 								<label for="accumulator">Аккумуляторные</label>
 							</li>
 							<li class="filters-option">
-								<input class="visually-hidden filter-input filter-input-checkbox" type="radio" name="power" id="power-net">
+								<input class="visually-hidden filter-input filter-input-checkbox" type="radio" name="power" id="power">
 								<label for="power">Сетевые</label>
 							</li>
 						</ul>
 					</fieldset>
-					<button class="button filters-show" type="submit">
-						Показать
-					</button>
+					<button class="button filters-show" type="submit">Показать</button>
 				</form>				
 			</section>
 		</main>
@@ -294,7 +292,7 @@
 						<a href="contacts.html">Контакты</a>
 					</li>
 				</ul>
-				<ul class="footer-perforator-navigation">
+				<ul class="footer-product-navigation">
 					<li>
 						<a href="material.html">Материалы</a>
 					</li>
@@ -337,15 +335,11 @@
 						Ваше имя:
 					</label>
 					<input class="user-name" type="text" name="user-name" placeholder="Имя Фамилия" id="user-name">
-					<label for="user-email">
-						Ваш e-mail:
-					</label>
-					<input class="user-email" type="text" name="user-email" placeholder="email@example.com" id="user-email">
+					<label for="user-email">Ваш e-mail:</label>
+					<input class="user-email" type="email" name="user-email" placeholder="email@example.com" id="user-email">
 				</p>
 				<p>
-					<label for="user-text">
-						Текс письма:
-					</label>
+					<label for="user-text">Текс письма:</label>
 					<textarea class="user-text" rows="5" name="user-text" placeholder="В свободной форме" id="user-text"></textarea> 
 				</p>
 			</form>
